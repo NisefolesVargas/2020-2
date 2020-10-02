@@ -74,7 +74,7 @@ En este sentido, se adiciona al HDL de siete segmentos 4 señales de control par
 
 Se evidencia que se deben construir cuatro módulos  básicos, de los cuales uno de ellos esta descrito en el ejercicio anterior, ***BCDtoSSeg.v***. Los otros tres bloques son:
 
-* Divisor de frecuencia: Su función es dividir la frecuencia de  `clk` de entrada, en el tiempo requerido para cada camvio de ánodo
+* Divisor de frecuencia: Su función es dividir la frecuencia de  `clk` de entrada, en el tiempo requerido para cada cambio de ánodo
 * Selector de Ánodo: Sincronizado con la frecuencia  que genera el divisor, cambia en cada instante de tiempo el  ánodo, se puede ver como un registro de desplazamiento del bit 0 `1110 1101 1011 0111`
 * Selector de Datos: dependiendo del ánodo activado, activa los datos correspondientes.
 
